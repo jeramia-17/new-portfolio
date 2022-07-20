@@ -89,7 +89,7 @@ intro .photo img{
 
 }
 #details .full p{
-    font-size: 0.3rem;
+    font-size: 0.5rem;
 }
 #ico{
     display: grid;
@@ -112,6 +112,7 @@ intro .photo img{
     gap: 1rem;
     margin-bottom: 6%;
 }
+
 #whatdo{
     padding: 2rem;
 
@@ -120,6 +121,9 @@ intro .photo img{
     width: 50%;
     line-height: 1.5rem;
    
+}
+.tclone p{
+    text-align: justify;
 }
 .tclone p span{
     font-weight: bold;
@@ -150,6 +154,9 @@ intro .photo img{
     display: flex;
     gap: 1rem;
     margin-bottom: 6%;
+}
+.nclone p{
+    text-align: justify;
 }
 
 .nclone{
@@ -190,6 +197,9 @@ intro .photo img{
 .hclone{
     width: 50%;
     line-height: 1.5rem;
+}
+.hclone p{
+    text-align: justify;
 }
 .hclone p span{
     font-weight: bold;
@@ -275,6 +285,9 @@ footer {
     }
     #ico img{
         width: 50%;
+    }
+    #details .full{
+        flex-direction: column;
     }
     h3,h4,h5{
         font-size: 1rem;
