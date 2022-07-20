@@ -95,7 +95,7 @@ intro .photo img{
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     justify-content: space-around;
-    align-items: center;
+    place-items: center;
 }
 #ico img{
     width: 80%;
@@ -267,9 +267,7 @@ footer {
     } 
     intro {
         flex-direction: column-reverse;
-       
-        
-        place-items:center;
+        place-items: center;
     }
     intro .detail p{
         font-size: 2vh;
